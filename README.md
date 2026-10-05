@@ -1,6 +1,5 @@
 # 星弈五子棋 - C++ HTTP 服务框架
 
-> **本项目目前只在[知识星球](https://programmercarl.com/other/kstar.html)答疑并维护**。
 
 这次带大家用C++开发一个 HTTP服务框架！
 
@@ -22,7 +21,6 @@ HTTP 服务框架项目的**重点在于应用层部分的实现**。
 
 这个项目做下来，你会发现 自己背的 网络八股、数据库八股，和C++八股 都用上了，**真正达到活学活用**！
 
-在项目专栏里，本项目涉及到的八股文都给大家列出来了：
 
 <div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303110015.png' width=500 alt=''></img></div>
 
@@ -96,9 +94,7 @@ HTTP 框架抽象了网络通信的复杂性，使开发人员能够专注于构
 ## 项目精讲
 
 
-该项目的专栏是[知识星球](https://programmercarl.com/other/kstar.html)录友专享的。
 
-项目专栏依然是将 「简历写法」给大家列出来了，大家学完就可以参考这个来写简历：
 
 给出一般写法，适用于 基础不太好的录友写：
 <div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303105614.png' width=500 alt=''></img></div>
@@ -111,7 +107,6 @@ HTTP 框架抽象了网络通信的复杂性，使开发人员能够专注于构
 
 <div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303105751.png' width=500 alt=''></img></div>
 
-专栏中的项目面试题都掌握的话，这个项目在面试中基本没问题。
 
 很多录友在做项目的时候，把项目运行起来 就是第一大难点！
 
@@ -127,7 +122,6 @@ HTTP 框架抽象了网络通信的复杂性，使开发人员能够专注于构
 
 <div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303110606.png' width=500 alt=''></img></div>
 
-当然项目专栏会对本项目代码做详细的讲解：
 
 <div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303110703.png' width=500 alt=''></img></div>
 
@@ -140,14 +134,4 @@ HTTP 框架抽象了网络通信的复杂性，使开发人员能够专注于构
 
 <div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303111039.png' width=500 alt=''></img></div>
 
-## 答疑
-
-本项目在[知识星球](https://programmercarl.com/other/kstar.html)里为 文字专栏形式，大家不用担心，看不懂，星球里每个项目有专属答疑群，任何问题都可以在群里问，都会得到解答：
-
-![](https://file1.kamacoder.com/i/web/2025-09-26_11-30-13.jpg)
-
-
-## 获取本项目专栏
-
-**本文档仅为星球内部专享，大家可以加入[知识星球](https://programmercarl.com/other/kstar.html)里获取，在星球置顶一**。
 
