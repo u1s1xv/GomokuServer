@@ -7,7 +7,6 @@
 
 为了让大家更清楚的理解，我画一个图：：
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303104806.png' width=500 alt=''></img></div>
 
 webserver项目 一般是教你从 socket 开始写最终能够实现一个简单的 HTTP 访问和响应就算是结束了。
 
@@ -22,7 +21,6 @@ HTTP 服务框架项目的**重点在于应用层部分的实现**。
 这个项目做下来，你会发现 自己背的 网络八股、数据库八股，和C++八股 都用上了，**真正达到活学活用**！
 
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303110015.png' width=500 alt=''></img></div>
 
 ## 什么是 HTTP 框架？
 
@@ -97,41 +95,42 @@ HTTP 框架抽象了网络通信的复杂性，使开发人员能够专注于构
 
 
 给出一般写法，适用于 基础不太好的录友写：
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303105614.png' width=500 alt=''></img></div>
 
 给出高阶写法，适用于 想冲刺大厂的录友写：
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303105720.png' width=500 alt=''></img></div>
 
 做完该项目，面试中大概率会有哪些面试问题，以及如何回答，也列出好了：
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303105751.png' width=500 alt=''></img></div>
 
 
 很多录友在做项目的时候，把项目运行起来 就是第一大难点！
 
 本项目运行起来 需要依赖的环境很多，所以我给大家准备的 自动化环境配置脚本， **项目运行环境，一键配置！ 不需要大家去处理环境问题了**：
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303110239.png' width=500 alt=''></img></div>
 
 这个脚本运行 都是需要 20 - 30分钟的样子，可以感受一下 如何手动配置环境有多复杂。
 
 本项目分为六大模块， 分别是：报文解析模块、路由模块、会话管理模块、中间件模块、数据连接池模块、HTTPS模块：
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303110529.png' width=500 alt=''></img></div>
-
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303110606.png' width=500 alt=''></img></div>
 
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303110703.png' width=500 alt=''></img></div>
+
 
 本项目作为http服务框架，我们还为大家在本框架下 开发了一个小例子，在线五子棋（星弈五子棋）： （五子棋是基于本框架开发的完整示例应用，展示了路由、会话、数据库、中间件等模块的实际用法）
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303110852.png' width=500 alt=''></img></div>
 
 
 给出框架的优化思路：
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20250303111039.png' width=500 alt=''></img></div>
 
 
+
+## TODO
+
+- [ ] 添加项目架构图，展示各模块之间的关系
+- [ ] 补充 API 接口文档，说明每个路由的请求/响应格式
+- [ ] 添加单元测试用例，覆盖核心模块
+- [ ] 优化数据库连接池的空闲连接检测与自动回收
+- [ ] 支持配置文件驱动，将硬编码参数外部化
+- [ ] 添加 Docker Compose 一键部署脚本
+- [ ] 补充前端页面的响应式适配
